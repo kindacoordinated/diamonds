@@ -14,8 +14,7 @@ ggplot(diamonds, aes(x = carat, y = price, color = clarity)) +
   labs(title = "Price vs Carat of Diamonds",
        x = "Carat",
        y = "Price (USD)",
-       color = "Clarity") +
-  geom_smooth()
+       color = "Clarity")
 
 Sys.time()
 ```
