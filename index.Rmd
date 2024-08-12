@@ -6,6 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
+
 library(ggplot2) 
 
 # Create a scatter plot of price vs carat, colored by clarity
